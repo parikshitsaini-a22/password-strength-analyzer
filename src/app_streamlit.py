@@ -1,6 +1,6 @@
 import streamlit as st
-from .analyzer import analyze_password
-from .wordlist import generate_wordlist
+from analyzer import analyze_password
+from wordlist import generate_wordlist
 
 st.set_page_config(page_title="Password Analyzer", page_icon="🔑", layout="centered")
 
